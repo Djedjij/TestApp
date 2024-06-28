@@ -37,15 +37,26 @@
             <img src="/images/icons/cross.svg" alt="close" />
           </button>
         </div>
-        <form class="form" action="">
+        <form id="form" class="form" action="">
           <h3 class="form-header">Войти в систему</h3>
-          <input class="input-text" type="text" placeholder="Email/Телефон" />
-          <input class="input-text" type="password" placeholder="Пароль" />
+          <input
+            id="emailOrPhone"
+            class="input-text"
+            type="text"
+            placeholder="Email/Телефон"
+          />
+          <input
+            id="password"
+            class="input-text"
+            type="password"
+            placeholder="Пароль"
+          />
           <div class="checkbox-container">
             <input
               class="checkbox-input"
               type="checkbox"
               id="remember-password"
+              onclick="checkCheckbox()"
             />
             <label class="checkbox-label" for="remember-password"
               >Запомнить пароль</label
@@ -57,5 +68,6 @@
         </form>
       </div>
     </div>
+    <script src="/script.js"></script>
   </body>
 </html>
