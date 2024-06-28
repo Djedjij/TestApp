@@ -15,19 +15,23 @@
   background-color: #ebf0fa;
   border-radius: 10px;
 }
+
 .content-wrapper {
   width: 50%;
 }
+
 .block-content {
   margin-left: 64px;
   font-family: "Manrope", sans-serif;
 }
+
 .block-content-header {
   color: #1f4284;
   font-size: 30px;
   font-weight: 500;
   line-height: 48px;
 }
+
 .block-content-text {
   margin-top: 18px;
   max-width: 511px;
@@ -48,14 +52,112 @@
   line-height: 28px;
   border: none;
   color: white;
+  cursor: pointer;
 }
+
 .block-content-button img {
   margin-left: 44px;
 }
+
 .block-img {
   width: 50%;
   height: 456px;
   max-width: 910px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+/* form-styles */
+.form-wrapper {
+  padding: 24px;
+  background-color: #f0f4fc;
+  max-width: 500px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  font-family: Manrope;
+}
+
+.form-header {
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.form-close-btn-wrapper {
+  position: relative;
+  height: 52px;
+}
+
+.form-close-btn {
+  position: absolute;
+  background-color: none;
+  border: none;
+  cursor: pointer;
+  right: 0;
+}
+
+.input-text {
+  border: none;
+  background-color: #d7e2f6;
+  padding: 24px;
+  border-radius: 10px;
+  margin-top: 4px;
+  color: #1f4284;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.input-text::placeholder {
+  color: #1f4284;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  margin-top: 31px;
+}
+.checkbox-input {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #323232;
+}
+.checkbox-label {
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 10px;
+  color: #323232;
+}
+.form-restore-btn {
+  margin-top: 31px;
+  background-color: none;
+  border: none;
+  width: max-content;
+  font-size: 20px;
+  font-weight: 500;
+  color: #244c98;
+}
+
+.input-submit {
+  padding: 18px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #244c98;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+.form-registration-btn {
+  margin-top: 4px;
+  padding: 18px 12px;
+  background-color: #f0f4fc;
+  border: 1px solid #244c98;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #244c98;
 }
